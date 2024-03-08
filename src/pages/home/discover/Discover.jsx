@@ -12,19 +12,22 @@ const Discover = () => {
           <div className='content'>
             {discover.map((val) => {
               return (
-                <div className='box'>
-                  <div className='img'>
-                    <img src={val.cover} alt='' />
+                <a href={val.link} key={val.title} target="_blank" rel="noopener noreferrer">
+                  {/* Wrap the image inside the anchor tag */}
+                  <div className='box'>
+                    <div className='img'>
+                      <img src={val.cover} alt={val.title} />
+                    </div>
+                    <h1 className='title'>{val.title}</h1>
                   </div>
-                  <h1 className='title'>{val.title}</h1>
-                </div>
+                </a>
               )
             })}
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Discover
+export default Discover;

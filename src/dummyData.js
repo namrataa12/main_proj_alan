@@ -431,31 +431,30 @@ export const discover = [
   {
     title: "games",
     cover: "../images/discover/d1.jpg",
+    link: "https://gamerant.com/gaming/"
   },
   {
     title: "sports",
     cover: "../images/discover/d2.jpg",
+    link: "https://indianexpress.com/section/sports/"
   },
   {
     title: "humour",
     cover: "../images/discover/d3.jpg",
+    link: "https://timesofindia.indiatimes.com/humour/newslisting/50680967.cms"
   },
   {
     title: "gadgets",
     cover: "../images/discover/d4.jpg",
-  },
+    link: "https://www.gadgets360.com/news"  },
   {
     title: "movies",
     cover: "../images/discover/d5.jpg",
+    link: "https://timesofindia.indiatimes.com/entertainment"
   },
   {
     title: "nitendo",
     cover: "../images/discover/d6.jpg",
+    link: "https://www.nintendo.com/us/whatsnew/",
   },
 ]
-{
-  /*<p>Busan is an amazing magazine Blogger theme that is easy to customize for your needs</p>
-  <p>Google To Boost Android Security In Few Days</p>
-  <p>Cespedes play the winning Baseball Game</p>
-  <p>US Promises to give Intel aid to locate the soldiers</p>
-}

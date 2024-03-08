@@ -1,5 +1,8 @@
 import React from "react"
 import "./footer.css"
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+
 
 const Footer = () => {
   return (
@@ -7,12 +10,13 @@ const Footer = () => {
       <footer>
         <div className='container'>
           <div className='box logo'>
-            <img src='./newsmag.png' alt='logo' />
-            <p>NewsMag is an amazing news website theme that is easy to customize for your needs</p>
+          <p>News flash: Group of cows spotted practicing synchronized mooing for upcoming talent show.😂</p>
+          <p>NewsMag: An amazing news website theme that is easy to customize for your needs! 📰✨</p>
+
             <i className='fa fa-envelope'></i>
-            <span> hello@namrata.com </span> <br />
+            <span> patel.namrata@gmail.com </span> <br />
             <i className='fa fa-headphones'></i>
-            <span> +91 60521488</span>
+            <span> +919167684593</span>
           </div>
           <div className='box'>
             <h3>SPORT</h3>
@@ -38,7 +42,6 @@ const Footer = () => {
           </div>
           <div className='box'>
             <h3>LABELS</h3>
-            {/*<i className='fa fa-chevron-right'></i>*/}
             <ul>
               <li>
                 <span>Boxing</span> <label>(5)</label>
@@ -67,5 +70,4 @@ const Footer = () => {
     </>
   )
 }
-
 export default Footer
