@@ -30,24 +30,27 @@ const Life = () => {
           <Slider {...settings}>
             {lifestyle.map((val) => {
               return (
-                <div className='items'>
-                  <div className='box shadow'>
-                    <div className='images'>
-                      <div className='img'>
-                        <img src={val.cover} alt='' />
+                <div className='items' key={val.id}>
+                  {/* Wrap the post content with an anchor tag */}
+                  <a href={val.link} target="_blank" rel="noopener noreferrer" className="post-link">
+                    <div className='box shadow'>
+                      <div className='images'>
+                        <div className='img'>
+                          <img src={val.cover} alt='' />
+                        </div>
+                        <div class='category category1'>
+                          <span>{val.category}</span>
+                        </div>
                       </div>
-                      <div class='category category1'>
-                        <span>{val.catgeory}</span>
+                      <div className='text'>
+                        <h1 className='title'>{val.title.slice(0, 40)}...</h1>
+                        <div className='date'>
+                          <i class='fas fa-calendar-days'></i>
+                          <label>{val.date}</label>
+                        </div>
                       </div>
                     </div>
-                    <div className='text'>
-                      <h1 className='title'>{val.title.slice(0, 40)}...</h1>
-                      <div className='date'>
-                        <i class='fas fa-calendar-days'></i>
-                        <label>{val.date}</label>
-                      </div>
-                    </div>
-                  </div>
+                  </a>
                 </div>
               )
             })}
@@ -58,4 +61,4 @@ const Life = () => {
   )
 }
 
-export default Life
+export default Life;

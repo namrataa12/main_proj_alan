@@ -15,6 +15,7 @@ const Music = () => {
     rows: 2,
     slidesPerRow: 1,
   }
+  
   return (
     <>
       <section className='music'>
@@ -25,7 +26,8 @@ const Music = () => {
               .filter((val) => val.catgeory === "fun")
               .map((val) => {
                 return (
-                  <div className='items'>
+                  <a key={val.id} href={val.link} target="_blank" className='items'>
+                    {/* Wrap the elements with <a> tag and provide href attribute */}
                     <div className='box shadow flexSB'>
                       <div className='images'>
                         <div className='img'>
@@ -50,7 +52,7 @@ const Music = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </a>
                 )
               })}
           </Slider>

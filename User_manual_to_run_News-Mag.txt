@@ -1,0 +1,29 @@
+User manual to run News-Mag
+
+Step 1: Hardware Requirements
+Ensure your system meets the minimum hardware requirements:
+- Operating System: Windows 10
+- Processor: Intel Core i3 10th generation
+- RAM: 8 GB
+
+Step 2: Software Requirements
+Make sure you have the required software installed:
+- Visual Studio Code 2019
+
+Step 3: prerequisite
+API KEY from NEWSAPI
+KEY FROM ALAN AI
+
+Step 4: unzip the file
+
+Step 5: move to news mag dir
+
+Step 6: open it in vscode
+
+Step 7: in terminal first run the command “npm i” to install node packages
+
+Step 8: then run “npm start” to start development server
+
+Note: make sure to have active internet connection and you can generate your own alan ai api key from their website
+
+

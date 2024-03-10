@@ -42,7 +42,6 @@ const Popular = () => {
                   target="_blank"
                   className="items"
                 >
-                  {/* Add key prop for list rendering */}
                   <div className="box shadow">
                     <div className="images row">
                       <div className="img">
@@ -58,6 +57,7 @@ const Popular = () => {
                         <i className="fas fa-calendar-days"></i>
                         <label>{val.date}</label>
                       </div>
+                      {/* I'm assuming you have a property named 'comments' in your data */}
                       <div className="comment">
                         <i className="fas fa-comments"></i>
                         <label>{val.comments}</label>

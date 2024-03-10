@@ -187,46 +187,46 @@ export const world = [
 
 export const popular = [
   {
-    id: 1,
-    catgeory: "world",
-    title: "Our Favorite News From All Around the World",
-    date: "23. FMarch 2024",
-    cover: "../images/popular/pop1.jpg",
-    desc: "",
-    link: "https://www.theguardian.com/world"
+    id: 3,
+    catgeory: "sport",
+    title: "Is This The New Boxing Champion?",
+    date: "11 March 2024",
+    cover: "../images/popular/pop3.jpg",
+    link: "https://timesofindia.indiatimes.com/sports"
   },
   {
     id: 2,
     catgeory: "travel",
     title: "Places To Visit For A Peaceful Holiday",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/popular/pop2.jpg",
     link: "https://timesofindia.indiatimes.com/travel/travel-news"
   },
   {
-    id: 3,
-    catgeory: "sport",
-    title: "Is This The New Boxing Champion?",
-    date: "19. February 2022",
-    cover: "../images/popular/pop3.jpg",
-    link: "https://timesofindia.indiatimes.com/sports"
+    id: 8,
+    catgeory: "fun",
+    title: "Vote For The Top Tracks Of The Month",
+    date: "11. March 2024",
+    cover: "../images/popular/pop8.jpg",
+    desc: ".",
+    link:"https://indianexpress.com/section/sports/"  
   },
   {
     id: 4,
     catgeory: "sport",
     title: "A Detailed Retelling Of Our Trek Through The Dangerous Alps",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/popular/pop4.jpg",
     link:"https://indianexpress.com/section/sports/"
   },
   {
     id: 5,
     catgeory: "fun",
-    title: "Natural Sunlight Boosts Your Immunity",
-    date: "19. February 2022",
+    title: "A Complete List of BTS’ Solo Projects (So Far)",
+    date: "11 March 2024",
     cover: "../images/popular/pop5.jpg",
     desc: ".",
-    link:"https://indianexpress.com/section/sports/"
+    link:"https://www.billboard.com/artist/bts/"
   },
   {
     id: 6,
@@ -241,25 +241,25 @@ export const popular = [
     id: 7,
     catgeory: "fashion",
     title: "The Valid Fashion Style For This Fall",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/popular/pop7.jpg",
     desc: ".",
     link:"https://indianexpress.com/section/sports/"  
   },
   {
-    id: 8,
-    catgeory: "fun",
-    title: "Vote For The Top Tracks Of The Month",
-    date: "19. February 2022",
-    cover: "../images/popular/pop8.jpg",
-    desc: ".",
-    link:"https://indianexpress.com/section/sports/"  
+    id: 1,
+    catgeory: "world",
+    title: "Our Favorite News From All Around the World",
+    date: "23. March 2024",
+    cover: "../images/popular/pop1.jpg",
+    desc: "",
+    link: "https://www.theguardian.com/world"
   },
   {
     id: 9,
     catgeory: "fun",
     title: "Unplugged Gigs To Remember",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/popular/pop9.jpg",
     desc: ".",
     link:"https://indianexpress.com/section/sports/"  
@@ -268,7 +268,7 @@ export const popular = [
     id: 10,
     catgeory: "fun",
     title: "Picks For This Month’s Best Instagram Shots",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/popular/pop10.jpg",
     desc: ".",
     link:"https://indianexpress.com/section/sports/"  
@@ -277,7 +277,7 @@ export const popular = [
     id: 11,
     catgeory: "business",
     title: "Why Rich People Don’t Invest Much",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/popular/pop11.jpg",
     desc: "",
     link:"https://indianexpress.com/section/sports/"  
@@ -286,7 +286,7 @@ export const popular = [
     id: 12,
     catgeory: "technology",
     title: "Welcoming The Digital Generation",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/popular/pop12.jpg",
     desc: ".",
     link:"https://indianexpress.com/section/sports/"
@@ -295,7 +295,7 @@ export const popular = [
     id: 13,
     catgeory: "fun",
     title: "These Teens Are Absolutely Crazy For Beach Soccer",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/popular/pop13.jpg",
     desc: ".",
     link:"https://indianexpress.com/section/sports/"
@@ -304,7 +304,7 @@ export const popular = [
     id: 14,
     catgeory: "fun",
     title: "How To Organize The Best Bridal Party Ever",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/popular/pop14.jpg",
     desc: ".",
     link:"https://indianexpress.com/section/sports/"
@@ -313,7 +313,7 @@ export const popular = [
     id: 15,
     catgeory: "technology",
     title: "Social Networks And Social Life",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/popular/pop15.jpg",
     desc: ".",
     link:"https://indianexpress.com/section/sports/"
@@ -322,7 +322,7 @@ export const popular = [
     id: 16,
     catgeory: "technology",
     title: "Gaming Brings Couples Closer Together?",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/popular/pop1.jpg",
     desc: ".",
     link:"https://indianexpress.com/section/sports/"
@@ -342,7 +342,7 @@ export const ppost = [
     id: 2,
     category: "health",
     title: "6 Reasons Why You Shouldn’t Skip Breakfast",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/ppost/pop2.jpg",
     link: "https://timesofindia.indiatimes.com/life-style/food-news/why-you-should-not-skip-breakfast/photostory/68940050.cms" // Example link
   },
@@ -350,7 +350,7 @@ export const ppost = [
     id: 3,
     category: "food",
     title: "Our Top 5 Restaurants For A Complete Culinary Experience",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/ppost/pop3.jpg",
     link: "/post/3" // Example link
   },
@@ -358,7 +358,7 @@ export const ppost = [
     id: 4,
     category: "fashion",
     title: "Hipster Chic Is In Again: Get Some Glasses",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/ppost/pop4.jpg",
     link: "/post/4" // Example link
   }
@@ -366,50 +366,57 @@ export const ppost = [
 export const lifestyle = [
   {
     id: 1,
-    catgeory: "world",
-    title: "Mustang Teases With A New Promo",
-    date: "19. February 2022",
-    cover: "../images/life/life1.jpg",
+    category: "health",
+    title: "It’s not just what you eat, according to a doctor. It’s when and how",
+    date: "11 March 2024",
+    cover: "../images/life/life1a.jpg",
+    link: "https://edition.cnn.com/health/life-but-better/food" // Add the link property for the first post
   },
   {
     id: 2,
-    catgeory: "sport",
+    category: "sport",
     title: "Surfs Up – Places For Killer Waves",
-    date: "19. February 2022",
+    date: "11 March 2024",
     cover: "../images/life/life2.jpg",
+    link: "https://example.com/post2" // Add the link property for the second post
   },
   {
     id: 3,
-    catgeory: "fashion",
-    title: "Learn How To Nail Your Favorite Look",
-    date: "19. February 2022",
+    category: "fashion",
+    title: "The 58 Best Oscars Red Carpet Dresses of All Time",
+    date: "11 March 2024",
     cover: "../images/life/life3.jpg",
+    link: "https://www.vogue.com/fashion" // Add the link property for the third post
   },
   {
     id: 4,
-    catgeory: "world",
-    title: "Music Playing On R&B Stations",
-    date: "19. February 2022",
+    category: "world",
+    title: "News from all around the world",
+    date: "11 March 2024",
     cover: "../images/life/life4.jpg",
+    link: "https://www.bbc.com/news/world" // Add the link property for the fourth post
   },
-]
+];
 export const tpost = [
   {
     id: 1,
-    title: "US Promises to give Intel aid to locate the soldiers",
-    cover: "../images/tpost/tpost.webp",
+    title: "TikTok latest trends, influencer news and updates",
+    cover: "../images/tpost/tpost1.jpg",
+    link: "https://www.independent.co.uk/topic/tiktok?CMP=ILC-refresh" // Add the link property for the first post
   },
   {
     id: 2,
-    title: "Renewable energy dead as industry waits for Policy",
-    cover: "../images/tpost/tpost2.jpg",
+    title: "Instagram overtakes TikTok in app downloads in race for new users",
+    cover: "../images/tpost/tpost4.jpg",
+    link: "https://www.theguardian.com/technology/2024/mar/08/instagram-tiktok-app-reels-video-meta" // Add the link property for the second post
   },
   {
     id: 3,
-    title: "Mount Etna erupts fashion in nice looking pictures",
+    title: "Tiktok to be banned in US?",
     cover: "../images/tpost/tpost3.jpg",
+    link: "https://www.hindustantimes.com/world-news/us-news/tiktok-to-be-banned-in-us-new-bill-forces-bytedance-to-divest-from-chinese-app-or-risk-101709814443949.html" // Add the link property for the third post
   },
-]
+];
 export const gallery = [
   {
     cover: "../images/gallery/g1.jpg",
