@@ -37,7 +37,7 @@ const Side = () => {
       </section>
 
       <section className='banner'>
-        <img src='./images/sidebar-banner-new.jpg' alt='' />
+        <img src='./images/np2.jpg' alt='' />
       </section>
 
       <Tpost />

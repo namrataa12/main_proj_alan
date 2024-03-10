@@ -15,6 +15,7 @@ import useStyles from './styles.js';
 import Navbar from './components/Navbar.jsx';
 import { Home_Navbar } from './components/Navbar.jsx';
 import NewsBoard from './components/NewsBoard.jsx';
+import ForgotPassword from './components/ForgotPassword.js';
 import ProtectedRoute from "./components/ProtectedRoute";
 import { UserAuthContextProvider } from "./components/context/UserAuthContext.js";
 import { BrowserRouter , Link, Outlet, useRoutes, Route, Routes } from 'react-router-dom';
@@ -104,6 +105,7 @@ const classes = useStyles();
               <Route path="/signup" element={<Sign />} />
               <Route path="/about" element={<AboutUS />}/>
               <Route path="/contact" element={<ContactUS />}/>
+              <Route path="/forgot-password" element={<ForgotPassword />} />
               
             </Routes>
           </UserAuthContextProvider>
@@ -115,4 +117,3 @@ const classes = useStyles();
     );
 }
 export default App;
-

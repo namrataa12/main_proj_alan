@@ -2,42 +2,41 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Form, Alert } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-//import GoogleButton from "react-google-button";
+import GoogleButton from "react-google-button";
 import { useUserAuth } from "../components/context/UserAuthContext";
 import './Signup.css';
 
-const Login = (props) => {
+const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { logIn, googleSignIn } = useUserAuth();
   const [error, setError] = useState("");
-  const [emailError, setEmailError] = useState('');
-  const [passwordError, setPasswordError] = useState('');
-  const [showSnackBar, setShowSnackBar] = useState(false); // New state for snack bar
+  const [emailError, setEmailError] = useState('')
+  const [passwordError, setPasswordError] = useState('')
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
-    // Set initial error values to empty
-    setEmailError('');
-    setPasswordError('');
-    setShowSnackBar(false); // Reset snack bar visibility
+      // Set initial error values to empty
+  setEmailError('')
+  setPasswordError('')
 
-    // Check if the user has entered both fields correctly
-    if ('' === email) {
-      setEmailError('Please enter your email');
-      return;
-    }
+  // Check if the user has entered both fields correctly
+  if ('' === email) {
+    setEmailError('Please enter your email')
+    return
+  }
 
-    if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email)) {
-      setEmailError('Please enter a valid email');
-      return;
-    }
+  if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email)) {
+    setEmailError('Please enter a valid email')
+    return
+  }
 
-    if ('' === password) {
-      setPasswordError('Please enter a password');
-      return;
-    }
+  if ('' === password) {
+    setPasswordError('Please enter a password')
+    return
+  }
 
+  
     e.preventDefault();
     setError("");
     try {
@@ -45,19 +44,18 @@ const Login = (props) => {
       navigate("/home");
     } catch (err) {
       setError(err.message);
-      setShowSnackBar(true); // Show snack bar on login failure
     }
   };
 
-  // const handleGoogleSignIn = async (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     await googleSignIn();
-  //     navigate("/home");
-  //   } catch (error) {
-  //     console.log(error.message);
-  //   }
-  // };
+  const handleGoogleSignIn = async (e) => {
+    e.preventDefault();
+    try {
+      await googleSignIn();
+      navigate("/home");
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
 
   return (
     <>
@@ -94,11 +92,22 @@ const Login = (props) => {
       <div className="p-4 box mt-3 text-center">
         Don't have an account? <Link to="/signup">Sign up</Link>
       </div>
-      {showSnackBar && (
-        <div className="snackbar">Login failed. Please check your credentials.</div>
-      )}
+
+
+      <div>
+          <Link to='/forgot-password'>Forgot Password</Link>
+        </div>
+        <div className="text-center mt-3">
+        {/* Uncomment the following line if you are using the GoogleButton component */}
+        <GoogleButton onClick={handleGoogleSignIn} />
+        {/* <button className="googleSignInButton" onClick={handleGoogleSignIn}>
+          Sign in with Google
+        </button> */}
       </div>
-    
+      </div>
+
+
+      
     </>
   );
 };

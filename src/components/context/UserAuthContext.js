@@ -7,7 +7,7 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
 } from "firebase/auth";
-import { auth } from "../../Firebase_Auth/firebase";
+import auth from "../../Firebase_Auth/firebase";
 
 const userAuthContext = createContext();
 

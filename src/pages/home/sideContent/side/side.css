@@ -10,19 +10,19 @@
   font-weight: 500;
 }
 .social .socBox:nth-child(1) {
-  background-color: #3b5998;
+  background-color: #5e80bf;
 }
 .social .socBox:nth-child(2) {
   background-color: #bd081c;
 }
 .social .socBox:nth-child(3) {
-  background-color: #1da1f2;
+  background-color: #00acee;
 }
 .social .socBox:nth-child(4) {
-  background-color: #c32aa3;
+  background-color: #e1306c;
 }
 .social .socBox:nth-child(5) {
-  background-color: #ff0000;
+  background-color: #e71717;
 }
 /*------subscribe--------*/
 .subscribe {

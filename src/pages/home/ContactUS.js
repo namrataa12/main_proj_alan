@@ -1,13 +1,11 @@
-// Contact.js
-
 import React from "react";
 import { useState } from 'react';
 import emailjs from "emailjs-com";
 import { Card, CardContent, Typography, Button, TextField } from '@material-ui/core';
-import './Contact.css';
 import { Home_Navbar } from '../../components/Navbar';
+import backgroundImage from '../../images/paper3.png'; // Import your image here
 
-const conSubTitle = "Get in touch with Contact us";
+const conSubTitle = "Get in touch with us";
 const btnText = "Send Message";
 
 const Contact = () => {
@@ -56,7 +54,87 @@ const Contact = () => {
   
 
   return (
-    <div className="cantact_us_full">
+    <div className="contact-us-full" style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <style>
+        {`
+        /* Global styles */
+        .container {
+          position: relative; /* Add position relative */
+          z-index: 0; /* Add z-index for the background */
+          width: 100%;
+          margin: 0 auto;
+          padding: 0 15px;
+        }
+        .contact-section {
+          margin-top: 100px;
+          margin-bottom: 30px;
+        }
+        .contact-card {
+          margin-top: 0; /* Remove top margin to make the card closer to the navbar */
+          padding: 20px;
+          max-width: 600px;
+          margin: 0 auto;
+          position: relative;
+          z-index: 1;
+          background-color: rgba(255, 255, 255, 0.7); /* Set background color to transparent with opacity */
+        }
+        
+        .section-header {
+          text-align: center;
+          margin-bottom: 40px;
+        }
+        
+        .title {
+          font-size: 28px;
+          font-weight: bold;
+          color: #333;
+          margin-bottom: 10px;
+        }
+        
+        .subtitle {
+          font-size: 18px;
+          color: #777;
+        }
+        
+        .contact-form {
+          max-width: 600px;
+          margin: 0 auto;
+          position: relative;
+          z-index: 2;
+        }
+        
+        .form-group {
+          margin-bottom: 20px;
+        }
+        
+        input[type="text"],
+        textarea {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          color: #000000; /* Set text color to dark black */
+        }
+        
+        textarea {
+          height: 150px;
+        }
+        
+        .lab-btn {
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+        
+        .lab-btn:hover {
+          background-color: #0056b3;
+        }
+        `}
+      </style>
       <Home_Navbar />
       <div className="contact-section padding-tb">
         <div className="container">

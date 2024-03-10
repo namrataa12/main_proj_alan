@@ -192,7 +192,7 @@ export const popular = [
     title: "Is This The New Boxing Champion?",
     date: "11 March 2024",
     cover: "../images/popular/pop3.jpg",
-    link: "https://timesofindia.indiatimes.com/sports"
+    link: "https://www.boxingnews24.com/"
   },
   {
     id: 2,
@@ -209,7 +209,7 @@ export const popular = [
     date: "11. March 2024",
     cover: "../images/popular/pop8.jpg",
     desc: ".",
-    link:"https://indianexpress.com/section/sports/"  
+    link:"https://www.thecurrent.org/poll/chartshow"  
   },
   {
     id: 4,
@@ -217,7 +217,7 @@ export const popular = [
     title: "A Detailed Retelling Of Our Trek Through The Dangerous Alps",
     date: "11 March 2024",
     cover: "../images/popular/pop4.jpg",
-    link:"https://indianexpress.com/section/sports/"
+    link:"https://timesofindia.indiatimes.com/topic/trek/news"
   },
   {
     id: 5,
@@ -231,11 +231,11 @@ export const popular = [
   {
     id: 6,
     catgeory: "health",
-    title: "Health Benefits From Asparagus",
+    title: "Eat well, live well: Your healthy news bites!",
     date: "19. February 2022",
     cover: "../images/popular/pop6.jpg",
     desc: ".",
-    link:"https://indianexpress.com/section/sports/"  
+    link:"https://timesofindia.indiatimes.com/life-style/food-news"  
   },
   {
     id: 7,
@@ -244,7 +244,7 @@ export const popular = [
     date: "11 March 2024",
     cover: "../images/popular/pop7.jpg",
     desc: ".",
-    link:"https://indianexpress.com/section/sports/"  
+    link:"https://www.indiatoday.in/lifestyle/fashion"  
   },
   {
     id: 1,
@@ -262,16 +262,16 @@ export const popular = [
     date: "11 March 2024",
     cover: "../images/popular/pop9.jpg",
     desc: ".",
-    link:"https://indianexpress.com/section/sports/"  
+    link:"https://www.rollingstone.com/music/music-lists/mtv-unplugged-the-15-best-episodes-119361/"  
   },
   {
     id: 10,
     catgeory: "fun",
-    title: "Picks For This Month’s Best Instagram Shots",
+    title: "Brushstrokes of beauty: Explore artistic wonders!",
     date: "11 March 2024",
     cover: "../images/popular/pop10.jpg",
     desc: ".",
-    link:"https://indianexpress.com/section/sports/"  
+    link:"https://frontline.thehindu.com/arts-and-culture/art/"  
   },
   {
     id: 11,
@@ -280,21 +280,21 @@ export const popular = [
     date: "11 March 2024",
     cover: "../images/popular/pop11.jpg",
     desc: "",
-    link:"https://indianexpress.com/section/sports/"  
-  },
-  {
-    id: 12,
-    catgeory: "technology",
-    title: "Welcoming The Digital Generation",
-    date: "11 March 2024",
-    cover: "../images/popular/pop12.jpg",
-    desc: ".",
-    link:"https://indianexpress.com/section/sports/"
+    link:"https://www.linkedin.com/pulse/four-common-excuses-why-people-dont-invest-how-avoid-ken"  
   },
   {
     id: 13,
     catgeory: "fun",
     title: "These Teens Are Absolutely Crazy For Beach Soccer",
+    date: "11 March 2024",
+    cover: "../images/popular/pop12.jpg",
+    desc: ".",
+    link:"https://economictimes.indiatimes.com/topic/gen-z"
+  },
+  {
+    id: 12,
+    catgeory: "technology",
+    title: "Welcoming The Digital Generation",
     date: "11 March 2024",
     cover: "../images/popular/pop13.jpg",
     desc: ".",
@@ -303,29 +303,29 @@ export const popular = [
   {
     id: 14,
     catgeory: "fun",
-    title: "How To Organize The Best Bridal Party Ever",
+    title: "Party alert: Get ready to make memories!",
     date: "11 March 2024",
     cover: "../images/popular/pop14.jpg",
     desc: ".",
-    link:"https://indianexpress.com/section/sports/"
+    link:"https://timesofindia.indiatimes.com/topic/'we-like-to-party'/news/"
   },
   {
     id: 15,
     catgeory: "technology",
-    title: "Social Networks And Social Life",
+    title: "Swipe for updates: Social media edition!",
     date: "11 March 2024",
     cover: "../images/popular/pop15.jpg",
     desc: ".",
-    link:"https://indianexpress.com/section/sports/"
+    link:"https://www.socialmediatoday.com/"
   },
   {
     id: 16,
     catgeory: "technology",
     title: "Gaming Brings Couples Closer Together?",
     date: "11 March 2024",
-    cover: "../images/popular/pop1.jpg",
+    cover: "../images/popular/pop16.jpg",
     desc: ".",
-    link:"https://indianexpress.com/section/sports/"
+    link:"https://www.pcgamer.com/news/"
   },
 ]
 
@@ -333,10 +333,10 @@ export const ppost = [
   {
     id: 1,
     category: "world",
-    title: "We Went Deep Underground For This Amazing Cave Shot",
+    title: "Where the Underground Meets the Headlines.",
     date: "19. February 2024",
     cover: "../images/ppost/pop1.jpg",
-    link: "/post/1" // Example link
+    link: "https://www.ndtv.com/topic/underwater"
   },
   {
     id: 2,
@@ -349,18 +349,18 @@ export const ppost = [
   {
     id: 3,
     category: "food",
-    title: "Our Top 5 Restaurants For A Complete Culinary Experience",
+    title: "From Kitchen to Your Feed: Fresh Restaurant Stories Daily.",
     date: "11 March 2024",
     cover: "../images/ppost/pop3.jpg",
-    link: "/post/3" // Example link
+    link: "https://timesofindia.indiatimes.com/topic/mumbai-restaurant/news"
   },
   {
     id: 4,
     category: "fashion",
-    title: "Hipster Chic Is In Again: Get Some Glasses",
+    title: "Fashion Fusion: Gen Z's Mix of Trends & Individuality",
     date: "11 March 2024",
     cover: "../images/ppost/pop4.jpg",
-    link: "/post/4" // Example link
+    link: "https://nypost.com/article/gen-z-fashion-trends-style-aesthetic/"
   }
 ];
 export const lifestyle = [
@@ -378,7 +378,7 @@ export const lifestyle = [
     title: "Surfs Up – Places For Killer Waves",
     date: "11 March 2024",
     cover: "../images/life/life2.jpg",
-    link: "https://example.com/post2" // Add the link property for the second post
+    link: "https://www.surfline.com/surf-news"
   },
   {
     id: 3,

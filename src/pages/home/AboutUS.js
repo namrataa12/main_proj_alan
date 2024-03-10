@@ -11,12 +11,12 @@ const AboutUs = () => {
       description: "To provide reliable and unbiased news coverage to our readers, empowering them to make informed decisions.",
     },
     {
-      imgUrl: '/images/news.png',
+      imgUrl: '/images/img1.jpg',
       title: "Our Team",
       description: "Meet our dedicated team of journalists, editors, and contributors who work tirelessly to deliver quality news content.",
     },
     {
-      imgUrl: '/images/news.png',
+      imgUrl: '/images/img2.jpg',
       title: "Join Us",
       description: "Interested in joining our team? Check out our careers page for current job openings and opportunities.",
     }
@@ -30,7 +30,7 @@ const AboutUs = () => {
         {`
           .root-container {
             min-height: 100vh;
-            background-image: url('/images/paper.png'); /* Background image */
+            background-image: url('/images/paper1.png'); /* Background image */
             background-size: cover; /* Cover the entire container */
             background-position: center;
             display: flex;

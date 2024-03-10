@@ -1,5 +1,5 @@
 footer {
-  background-color: #000;
+  background-color: #5c0303;
   color: #fff;
   padding: 50px 0;
   margin-top: 50px;
@@ -31,7 +31,7 @@ footer .item p {
 
 footer ul li {
   margin-bottom: 20px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid #380303cc;
   padding-bottom: 5px;
   display: flex;
   justify-content: space-between;
@@ -48,12 +48,12 @@ footer ul li span::before {
 }
 .legal {
   padding: 15px;
-  background-color: #000;
+  background-color: #2d0303;
   color: grey;
   border-top: 2px solid rgba(255, 255, 255, 0.3);
 }
 .legal i {
-  color: red;
+  color: #360606;
 }
 @media screen and (max-width: 768px) {
   footer .container {
